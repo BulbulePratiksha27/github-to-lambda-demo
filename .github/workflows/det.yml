@@ -12,9 +12,9 @@ jobs:
     runs-on: windows
     steps:
       - name: checkout source code
-        #uses: actions/checkout@v1
+        uses: actions/checkout@v1
       - name: default deploy
-        #uses: appleboy/lambda-action@master
+        uses: appleboy/lambda-action@master
         with:
           aws_access_key_id: AKIAUOFRSJPQHTXHKDNO
           aws_secret_access_key: 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

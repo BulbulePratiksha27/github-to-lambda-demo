@@ -20,4 +20,4 @@ jobs:
           aws_secret_access_key: JLR3QBxRJLD3GSKfOldNOIkRLNzPHzes2OzqR9ZG
           aws_region: ap-south-1
           function_name: remove-duplicate-values
-          source: removeduplicate.py
+          source: remove-duplicate-values/removeduplicate.py

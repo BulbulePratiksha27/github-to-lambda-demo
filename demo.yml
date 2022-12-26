@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout source code
-        uses: actions/checkout@v1
+        #uses: actions/checkout@v1
       - name: default deploy
-        uses: appleboy/lambda-action@master
+        #uses: appleboy/lambda-action@master
         with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_ID }}
+          aws_access_key_id: AKIAUOFRSJPQHTXHKDNO
+          aws_secret_access_key: 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
           aws_region: ap-south-1
           function_name: remove-duplicate-values
           source: removeduplicate.py
